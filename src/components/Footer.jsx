@@ -1,8 +1,8 @@
 import React from "react";
-import facebookIcon from "../assets/Fb_logo.png"; // Update the path as needed
+import facebookIcon from "../assets/Fb_logo.png"; 
 import instagramIcon from "../assets/insta_logo.png";
 import twitterIcon from "../assets/twit_png.png";
-import whatsappIcon from "../assets/watsapp.png"; // Optional, if using an icon for WhatsApp
+import whatsappIcon from "../assets/watsapp.png"; 
 
 function Footer() {
   return (
