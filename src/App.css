@@ -1,23 +1,23 @@
 .bg-container {
   position: relative;
   width: 100%;
-  height: 50vh; /* Half of the viewport height */
+  height: 50vh; 
   overflow: hidden;
 }
 
 .bg-container .bg-image {
-  object-fit: cover; /* Ensures the image covers the container without stretching */
+  object-fit: cover; 
   width: 100%;
   height: 100%;
 }
 
 @media (max-width: 768px) {
   .bg-container {
-    height: 40vh; /* Slightly smaller height for smaller screens */
+    height: 40vh; 
   }
 
   .bg-container .bg-image {
-    object-fit: contain; /* Prevents cropping on smaller screens */
+    object-fit: contain; 
   }
 }
 
