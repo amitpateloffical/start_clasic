@@ -17,20 +17,20 @@ const products = [
   { id: 8, name: 'Star Classic Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler4 },
   { id: 9, name: 'Star Classic Plastic Cyclone 200L', price: '₹35,000.00', discount: '20%', image: cooler1 },
   { id: 10, name: 'Star Classic Plastic Dhoomanta', price: '₹21,000.00', discount: '15%', image: cooler2 },
-  { id: 11, name: 'Star Classic Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler4 },
-  { id: 12, name: 'Star Classic Plastic Cyclone 200L', price: '₹35,000.00', discount: '20%', image: cooler1 },
-  { id: 13, name: 'Star Classic Plastic Dhoomanta', price: '₹21,000.00', discount: '15%', image: cooler2 },
-  { id: 14, name: 'Star Classic Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler4 },
-  { id: 14, name: 'Star Classic Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler4 },
-  { id: 14, name: 'Star Classic Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler4 },
+  { id: 11, name: 'Star Classic Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler3 },
+  { id: 12, name: 'Star Classic Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler4 },
+  { id: 13, name: 'MoonAir Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler5 },
+  { id: 14, name: 'MoonAir Plastic Diamond 160L', price: '₹30,000.00', discount: '10%', image: cooler5 },
+  { id: 15, name: 'Star Classic Plastic Cyclone 200L', price: '₹35,000.00', discount: '20%', image: cooler1 },
+  { id: 16, name: 'Star Classic Plastic Dhoomanta', price: '₹21,000.00', discount: '15%', image: cooler2 },
 ];
 
 function ProductList() {
   return (
-    <div className="container">
+    <div className="container py-4">
       <div className="row g-4 justify-content-center">
         {products.map(product => (
-          <div key={product.id} className="col-md-3">
+          <div key={product.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
             <ProductCard product={product} />
           </div>
         ))}
